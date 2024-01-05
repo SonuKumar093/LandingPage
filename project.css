@@ -244,12 +244,12 @@ bottom: 12px;
 
 .container3 {
     position: relative;
-    border: 2px solid #ffffff82;
+    border: 2px solid #ffffff3d;
     height: 55vh; /* Adjust the height as needed */
     width: 25vw; /* Adjust the width as needed */
     margin: 20px; /* Adjust the margin as needed */
     font-size: 24px; /* Adjust the font size as needed */
-    color: white; /* Set color to black */
+    color: rgba(255, 255, 255, 0.635); /* Set color to black */
     border-radius: 5px;
 }
 
@@ -298,12 +298,12 @@ left: 16px;
 
 .container4 {
     position: relative;
-    border: 2px solid #ffffff82;
+    border: 2px solid #ffffff3d;
     height: 50vh; /* Adjust the height as needed */
     width: 18vw; /* Adjust the width as needed */
     margin: 20px; /* Adjust the margin as needed */
     font-size: 24px; /* Adjust the font size as needed */
-    color: white; /* Set color to black */
+    color: rgba(255, 255, 255, 0.49); /* Set color to black */
     border-radius: 5px;
 }
 
@@ -311,7 +311,7 @@ left: 16px;
 .container4::after {
     content: '\2726'; /* Unicode character for a star */
     position: absolute;
-    color: rgba(255, 255, 255, 0.597);
+    color: rgba(255, 255, 255, 0.345);
 }
 
 .container4::before {
@@ -325,11 +325,12 @@ left: 16px;
 }
 
 .container-background-color3{
-    background-color: #ffffff12;
-    margin: 4px;
+    background-color: #ffffff07;
+    margin: 6px;
     border-radius: 10px;
-    position: relative;
-    bottom: 24px;
+   position: relative
+   ;
+  bottom: 10px;
 
 }
 
@@ -352,8 +353,8 @@ left: 16px;
  margin-left: 5px;
  border-radius: 7px;
  position: relative;
-top: 18px;
- 
+top: 1px;
+ left: -2px;
 
 
 }
@@ -366,3 +367,92 @@ height: 37px;
 width: 111px;
 margin: 20px 14px;
 }
+/* fifth card container css */
+.container5{
+    position: relative;
+    border: 2px solid #ffffff3b;
+    height: 37vh;
+    width: 83vw; /* Adjust the width as needed */
+    margin: 20px; /* Adjust the margin as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: rgba(255, 255, 255, 0.534); /* Set color to black */
+    border-radius: 7px;
+}
+
+.container5::before,
+.container5::after {
+    content: '\2726'; /* Unicode character for a star */
+    position: absolute;
+    color: rgba(255, 255, 255, 0.597);
+}
+
+.container5::before {
+    top: -18px;
+    left: -10px;
+}
+
+.container5::after {
+    bottom: -16px;
+    right: -11px;
+}
+
+
+
+
+
+
+
+.container4-bg-image4{
+ background-image:linear-gradient(to right,rgba(1,1,1,0.7) 23%,rgba(1,1,1,0.4) 45%), url("https://www.chrisreck.com/wp-content/uploads/2023/12/test.jpg");
+ background-size:  100% 100%;
+ background-repeat: no-repeat;
+ background-position: center;
+
+ height: 35vh;
+    width: 82vw;
+ margin: 10px;
+ border-radius: 10px;
+ position: relative;
+bottom: 43px;
+
+}
+.section-main-heading3{
+ 
+    line-height: 5px;
+    position: relative;
+    left: 53px;
+    top: 50px;
+    text-align: start;
+}
+.section-heading-making{
+
+
+
+
+    background:  linear-gradient(to right, rgba(16,252,138,1) 52px, rgba(19,168,221,1) 129px, rgb(255 255 255) 230px ,rgba(19,150,221,1) 313px,white 315px);
+   background-clip:text;
+   -webkit-background-clip: text;
+color: transparent;
+}  
+.send-button1{
+border: none;
+cursor: pointer;
+color: black;
+height: 36px;
+border-radius: 4px;
+width: 65px;
+background-color: yellow;
+font-weight: bold;
+/* margin-right: 24px; */
+position: relative;
+right: 28px;
+
+}
+.input-box-inner1{
+background-color: #ffffff33;
+border-radius: 2px;
+border: 1px solid #ffffff29;
+height: 31px;
+width: 20%;
+padding-left: 13px;
+}      
