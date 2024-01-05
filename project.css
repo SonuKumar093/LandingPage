@@ -12,6 +12,8 @@ body{
 .logo-align{
     height: 16vh;
     border-radius: 30px;
+    position: relative;
+    bottom: 20px;
     
 }
 .navbar-container{
@@ -273,7 +275,7 @@ bottom: 12px;
     padding: 13px;
     border-radius: 20px;
 }
-.container-background-color{
+.container-background-color2{
     background-color: #ffffff2b;
     margin: 10px;
     border-radius: 10px;
@@ -290,4 +292,77 @@ position: relative
 ;
 bottom: 12px;
 left: 16px;
+}
+/* fourth container */
+
+
+.container4 {
+    position: relative;
+    border: 2px solid #ffffff82;
+    height: 50vh; /* Adjust the height as needed */
+    width: 18vw; /* Adjust the width as needed */
+    margin: 20px; /* Adjust the margin as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: white; /* Set color to black */
+    border-radius: 5px;
+}
+
+.container4::before,
+.container4::after {
+    content: '\2726'; /* Unicode character for a star */
+    position: absolute;
+    color: rgba(255, 255, 255, 0.597);
+}
+
+.container4::before {
+    top: -18px;
+    left: -10px;
+}
+
+.container4::after {
+    bottom: -16px;
+    right: -11px;
+}
+
+.container-background-color3{
+    background-color: #ffffff12;
+    margin: 4px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 24px;
+
+}
+
+.container-button2{
+text-align: start;
+position: relative
+;
+
+bottom: 12px;
+left: 16px;
+}
+
+.container4-bg-image{
+ background-image:linear-gradient(to top,rgba(1,1,1,0.95) 21%,rgba(1,1,1,0.3) 48%), url("https://www.chrisreck.com/wp-content/uploads/2023/12/65455ebb719b71c9e4285ba3_blog-cover-1.jpg");
+ height: 380px;
+ width: 254px;
+ background-size:  100% 100%;
+ background-repeat: no-repeat;
+ background-position: center;
+ margin-left: 5px;
+ border-radius: 7px;
+ position: relative;
+top: 18px;
+ 
+
+
+}
+.fourth-container-button{
+    background: #6a62622b;
+border-radius: 14px;
+border: none;
+color: #fbd869;
+height: 37px;
+width: 111px;
+margin: 20px 14px;
 }
