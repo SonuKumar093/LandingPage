@@ -11,6 +11,7 @@ body{
    margin: 0;
    padding: 0;
 }
+
 .logo-align{
     height: 16vh;
     border-radius: 30px;
@@ -30,7 +31,7 @@ body{
     height: 45px;
     padding: 15px 50px 0 50px;
     border-radius: 50px;
-    background-color:rgba(255, 255, 255, 0.168);
+    background-color:rgb(255 255 255 / 4%);
     
 }
 .section-paragraph{
@@ -93,11 +94,11 @@ div h1:nth-child(3){
 }
 .horizontal-line {
    
-    color:white;
+    color:#ffffff82;
   width: 100%;
   height: 2px;
   
- background:  linear-gradient(to right, #ffffff00 5%, white 58%,#ffffff00 87%)
+ background:  linear-gradient(to right, #ffffff00 5%, #ffffff99 58%,#ffffff00 87%)
    
 }
 .hr5{
@@ -164,7 +165,8 @@ right: 28px;
    
   
    
-       background:  linear-gradient(to right, rgba(16,252,138,1) 52px, rgba(19,168,221,1) 129px, rgb(255 255 255) 230px ,rgba(19,150,221,1) 313px,white 315px);
+    background:  linear-gradient(to right,#7cecc1, #7ba1fe,#a3a5ab ,#7ba1fe,#cdddfe,#14161c);
+
       background-clip:text;
       -webkit-background-clip: text;
   color: transparent;
@@ -190,8 +192,11 @@ right: 28px;
 .container::after {
     content: '\2726'; /* Unicode character for a star */
     position: absolute;
-    color: rgba(255, 255, 255, 0.597);
+    color: rgb(255 255 255 / 30%);
 }
+
+
+
 
 .container::before {
     top: -18px;
@@ -251,7 +256,7 @@ bottom: 12px;
     width: 25vw; /* Adjust the width as needed */
     margin: 20px; /* Adjust the margin as needed */
     font-size: 24px; /* Adjust the font size as needed */
-    color: rgba(255, 255, 255, 0.635); /* Set color to black */
+    color: rgb(255 255 255 / 30%); /* Set color to black */
     border-radius: 5px;
 }
 
@@ -259,7 +264,7 @@ bottom: 12px;
 .container3::after {
     content: '\2726'; /* Unicode character for a star */
     position: absolute;
-    color: rgba(255, 255, 255, 0.597);
+    color: rgb(255 255 255 / 30%);;
 }
 
 .container3::before {
@@ -300,7 +305,7 @@ left: 16px;
 
 .container4 {
     position: relative;
-    border: 2px solid #ffffff3d;
+    border: 3px solid #ffffff3d;
     height: 50vh; /* Adjust the height as needed */
     width: 18vw; /* Adjust the width as needed */
     margin: 20px; /* Adjust the margin as needed */
@@ -313,7 +318,7 @@ left: 16px;
 .container4::after {
     content: '\2726'; /* Unicode character for a star */
     position: absolute;
-    color: rgba(255, 255, 255, 0.345);
+    color:   rgb(255 255 255 / 30%);;
 }
 
 .container4::before {
@@ -419,7 +424,7 @@ margin: 20px 14px;
 /* fifth card container css */
 .container5{
     position: relative;
-    border: 2px solid #ffffff3b;
+    border: 3px solid #ffffff3b;
     height: 37vh;
     width: 83vw; /* Adjust the width as needed */
     margin: 20px; /* Adjust the margin as needed */
@@ -432,7 +437,7 @@ margin: 20px 14px;
 .container5::after {
     content: '\2726'; /* Unicode character for a star */
     position: absolute;
-    color: rgba(255, 255, 255, 0.597);
+    color:   rgb(255 255 255 / 30%);
 }
 
 .container5::before {
@@ -452,7 +457,7 @@ margin: 20px 14px;
 
 
 .container4-bg-image4{
- background-image:linear-gradient(to right,rgba(1,1,1,0.7) 23%,rgba(1,1,1,0.4) 45%), url("./test.jpg");
+ background-image:linear-gradient(to right,#161820ed 34%,rgba(1,1,1,0.4) 45%), url("./test.jpg");
  background-size:  100% 100%;
  background-repeat: no-repeat;
  background-position: center;
@@ -566,6 +571,7 @@ bottom: 109px;
 .containerTwo::after {
 content: '\2726'; /* Unicode character for a star */
 position: relative;
+color: rgb(255 255 255 / 30%);
 }
 
 .containerTwo::before {
@@ -587,7 +593,7 @@ font-size: 32px;
 bottom: 23px;
 }
 .hr1{
-color: rgba(255, 255, 255, 0.365);
+    color: rgb(255 255 255 / 30%);
 transform: rotate(90deg);
 margin: 20px;
 width: 120px;
