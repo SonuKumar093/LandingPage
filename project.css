@@ -13,7 +13,7 @@ body{
 }
 
 .logo-align{
-    height: 16vh;
+    height: 12vh;
     border-radius: 30px;
     position: relative;
     bottom: 20px;
@@ -82,7 +82,7 @@ div h1:nth-child(3){
 }
 
 .container1::before {
-    top: 130px;
+    top: 124px;
     left: 804px;
     font-size: 32px;
 }
@@ -103,11 +103,14 @@ div h1:nth-child(3){
 }
 .hr5{
     transform: rotate(90deg);
-width: 135px;
+width: 143px;
 /* margin-top: 1px; */
-position: relative;
+/* position: relative;
 top: -16px;
-left: 54px;
+left: 54px; */
+position: absolute;
+    top: 587px;
+    left: 746px;
 }
 
 .horizontal-paragraph{
@@ -217,7 +220,7 @@ right: 28px;
     background-color: #ffffff0f;
     margin: 10px;
     border-radius: 10px;
-
+height: 62;
 }
 .container-heading{
     text-align: center;
