@@ -29,9 +29,10 @@ body{
     margin-top: 26px;
 }
 .navbar-items{
+    cursor: pointer;
    margin-top: 11px;
-    height: 45px;
-    padding: 15px 50px 0 50px;
+    height: 39px;
+    padding: 15px 34px 0 45px;
     border-radius: 50px;
     background-color:rgb(255 255 255 / 4%);
     
@@ -794,8 +795,9 @@ footer{
         height: 8vh;
       }
       .navbar-items{
+       
         margin-top: -2px;
-    height: 32px;
+        height: 37px;
     padding: 15px 26px 0 27px;
     border-radius: 43px;
       }
