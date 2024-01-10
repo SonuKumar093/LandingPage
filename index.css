@@ -464,7 +464,7 @@ margin: 20px 14px;
 
 
 .container4-bg-image4{
- background-image:linear-gradient(to right,#161820ed 34%,rgba(1,1,1,0.4) 45%), url("./test.jpg");
+ background-image:linear-gradient(to right,#161820ed 34%,rgba(1,1,1,0.4) 45%), url("./big-image.jpg");
  background-size:  100% 100%;
  background-repeat: no-repeat;
  background-position: center;
