@@ -138,6 +138,16 @@ background: #ffffff40;
 cursor: pointer;
 margin-left: 8px;
 }
+.icon-align2{
+    padding: 5px 9px;
+    border: 1px solid white;
+    border-radius: 50%;
+  
+    border: none;
+    background: #ffffff40;
+    cursor: pointer;
+    margin-left: 8px;
+}
 .input-box-inner{
     background-color: #ffffff33;
 border-radius: 23px;
@@ -289,7 +299,7 @@ bottom: 12px;
     border-radius: 20px;
 }
 .container-background-color2{
-    height: 62vh;
+    height: 61vh;
     background-color: #ffffff2b;
     margin: 10px;
     border-radius: 10px;
@@ -736,15 +746,19 @@ footer{
            
         .container4-bg-image{
             width: 29vw;
+            height: 48vh;
         }
         .container4-bg-image1{
             width: 29vw;
+            height: 48vh;
         }
         .container4-bg-image2{
             width: 29vw;
+            height: 48vh;
         }
         .container4-bg-image9 {
             width: 29vw;
+            height: 48vh;
         }
         
 
