@@ -10,6 +10,8 @@ body{
     width: 100vw;
    margin: 0;
    padding: 0;
+   overflow-x: hidden;
+   overflow-y: auto;
 }
 
 .logo-align{
@@ -183,7 +185,7 @@ right: 28px;
 .container {
     position: relative;
     border: 2px solid #ffffff3d;
-    height: 65vh; /* Adjust the height as needed */
+    height: 81vh; /* Adjust the height as needed */
     width: 36vw; /* Adjust the width as needed */
     margin: 20px; /* Adjust the margin as needed */
     font-size: 24px; /* Adjust the font size as needed */
@@ -211,7 +213,7 @@ right: 28px;
     right: -11px;
 }
 .container-image-alining{
-    height: 17vw;
+    height: 22vw;
     width: 33vw;
     padding: 13px;
     border-radius: 20px;
@@ -220,7 +222,7 @@ right: 28px;
     background-color: #ffffff0f;
     margin: 10px;
     border-radius: 10px;
-height: 62;
+height: 78vh;
 }
 .container-heading{
     text-align: center;
@@ -255,7 +257,7 @@ bottom: 12px;
 .container3 {
     position: relative;
     border: 2px solid #ffffff3d;
-    height: 55vh; /* Adjust the height as needed */
+    height: 64vh; /* Adjust the height as needed */
     width: 25vw; /* Adjust the width as needed */
     margin: 20px; /* Adjust the margin as needed */
     font-size: 24px; /* Adjust the font size as needed */
@@ -280,12 +282,13 @@ bottom: 12px;
     right: -11px;
 }
 .container-image-alining2{
-    height: 13vw;
+    height: 30vh;
     width: 22vw;
     padding: 13px;
     border-radius: 20px;
 }
 .container-background-color2{
+    height: 62vh;
     background-color: #ffffff2b;
     margin: 10px;
     border-radius: 10px;
@@ -294,7 +297,7 @@ bottom: 12px;
 .container-heading{
     text-align: center;
     position: relative;
-    bottom: 30px;
+    bottom: 22px;
 }
 .container-button2{
 text-align: start;
@@ -682,7 +685,7 @@ footer{
     .container {
         position: relative;
         border: 2px solid #ffffff3d;
-        height: 75vh;
+        height: 81vh;;
         width: 87vw;
         margin: 20px;
         font-size: 24px;
@@ -706,7 +709,7 @@ footer{
         .container3 {
             position: relative;
             border: 2px solid #ffffff3d;
-            height: 62vh;
+            height: 68vh;
     width: 43vw;
             margin: 20px;
             font-size: 24px;
@@ -801,5 +804,5 @@ footer{
     position: relative;
     right: 154px;
 
-            line-height: 0px;
+    line-height: 0px;
 }
