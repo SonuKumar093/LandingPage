@@ -148,6 +148,16 @@ margin-left: 8px;
     cursor: pointer;
     margin-left: 8px;
 }
+.icon-align3{
+    padding: 5px 6px;
+    border: 1px solid white;
+    border-radius: 50%;
+  
+    border: none;
+    background: #ffffff40;
+    cursor: pointer;
+    margin-left: 8px;
+}
 .input-box-inner{
     background-color: #ffffff33;
 border-radius: 23px;
