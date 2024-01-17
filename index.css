@@ -97,7 +97,7 @@ div h1:nth-child(3){
 }
 .horizontal-line {
    
-    color:#ffffff82;
+    color:#ffffffba;
   width: 100%;
   height: 2px;
   
@@ -205,7 +205,7 @@ right: 28px;
 /* 1-st container */
 .container {
     position: relative;
-    border: 2px solid #ffffff3d;
+    border: 3px solid #ffffff3d;
     height: 81vh; /* Adjust the height as needed */
     width: 36vw; /* Adjust the width as needed */
     margin: 20px; /* Adjust the margin as needed */
@@ -218,7 +218,7 @@ right: 28px;
 .container::after {
     content: '\2726'; /* Unicode character for a star */
     position: absolute;
-    color: rgb(255 255 255 / 30%);
+    color: rgb(255 255 255 / 58%);
 }
 
 
@@ -277,7 +277,7 @@ bottom: 12px;
 
 .container3 {
     position: relative;
-    border: 2px solid #ffffff3d;
+    border: 2.5px solid #ffffff3d;
     height: 64vh; /* Adjust the height as needed */
     width: 25vw; /* Adjust the width as needed */
     margin: 20px; /* Adjust the margin as needed */
@@ -290,7 +290,7 @@ bottom: 12px;
 .container3::after {
     content: '\2726'; /* Unicode character for a star */
     position: absolute;
-    color: rgb(255 255 255 / 30%);;
+    color: rgb(255 255 255 / 57%);;
 }
 
 .container3::before {
@@ -345,7 +345,7 @@ left: 16px;
 .container4::after {
     content: '\2726'; /* Unicode character for a star */
     position: absolute;
-    color:   rgb(255 255 255 / 30%);;
+    color:   rgb(255 255 255 / 58%);;
 }
 
 .container4::before {
@@ -378,7 +378,7 @@ left: 16px;
 }
 
 .container4-bg-image{
- background-image:linear-gradient(to top,rgba(1,1,1,0.95) 21%,rgba(1,1,1,0.3) 48%), url("./headphoneGirl.jpg");
+ background-image:linear-gradient(to top,rgba(1,1,1,0.95) 21%,rgba(1,1,1,0.3) 48%), url("./Images/headphoneGirl.jpg");
  height: 48vh;
  width: 254px;
  background-size:  100% 100%;
@@ -393,7 +393,7 @@ top: 1px;
 
 }
 .container4-bg-image1{
-    background-image:linear-gradient(to top,rgba(1,1,1,0.95) 21%,rgba(1,1,1,0.3) 48%), url("./headphoneGirl.jpg");
+    background-image:linear-gradient(to top,rgba(1,1,1,0.95) 21%,rgba(1,1,1,0.3) 48%), url("./Images/headphoneGirl.jpg");
     height:48vh;
     width: 254px;
     background-size:  100% 100%;
@@ -484,7 +484,7 @@ margin: 5px 14px;
 
 
 .container4-bg-image4{
- background-image:linear-gradient(to right,#161820ed 34%,rgba(1,1,1,0.4) 45%), url("./big-image.jpg");
+ background-image:linear-gradient(to right,#161820ed 34%,rgba(1,1,1,0.4) 45%), url("./Images/big-image.jpg");
  background-size:  100% 100%;
  background-repeat: no-repeat;
  background-position: center;
