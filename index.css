@@ -277,7 +277,9 @@ bottom: 12px;
 
 .container3 {
     position: relative;
-    border: 2.5px solid #ffffff3d;
+    border: 2.5px solid #ffffff2b;
+    border-left: 2.5px solid #ffffff61;
+    border-top: 2.5px solid #ffffff61;
     height: 64vh; /* Adjust the height as needed */
     width: 25vw; /* Adjust the width as needed */
     margin: 20px; /* Adjust the margin as needed */
@@ -332,7 +334,9 @@ left: 16px;
 
 .container4 {
     position: relative;
-    border: 3px solid #ffffff3d;
+    border: 3px solid #ffffff2b;
+    border-left: 3px solid #ffffff61;
+    border-top: 3px solid #ffffff61;
     height: 50vh; /* Adjust the height as needed */
     width: 18vw; /* Adjust the width as needed */
     margin: 20px; /* Adjust the margin as needed */
@@ -601,7 +605,7 @@ bottom: 109px;
 .containerTwo::after {
 content: '\2726'; /* Unicode character for a star */
 position: relative;
-color: rgb(255 255 255 / 30%);
+color: rgb(255 255 255 / 67%);
 }
 
 .containerTwo::before {
@@ -730,6 +734,8 @@ footer{
         .container3 {
             position: relative;
             border: 2px solid #ffffff3d;
+            border-left: 3px solid #ffffff61;
+    border-top: 3px solid #ffffff61;
             height: 68vh;
     width: 43vw;
             margin: 20px;
